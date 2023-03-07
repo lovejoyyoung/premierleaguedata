@@ -65,7 +65,7 @@ for match in data["matches"]:
     data_list.append([match['matchday'], tot_fc_rank, tot_fc_points])
 
 # Write data into csv files
-with open('ToT_FC_DATA.csv', mode='w', newline='') as file:
+with open('./data/ToT_FC_RankAfterturn.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Round', 'Rank', 'Points'])
     for row in data_list:
