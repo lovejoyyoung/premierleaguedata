@@ -11,7 +11,6 @@ headers = {"X-Auth-Token": api_key}
 response = requests.get(url, headers=headers)
 data = response.json()
 
-
 team_points = {}
 team_games_played = {}
 
