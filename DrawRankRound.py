@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Read CSV file
-df = pd.read_csv('./data/ToT_FC_RankAfterturnClean.csv')
+df = pd.read_csv('./data/ToT_FC_RankAfterroundClean.csv')
 
 # Grab colume data
 x = df['Round']
